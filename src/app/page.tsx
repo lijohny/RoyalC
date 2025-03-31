@@ -191,17 +191,16 @@ export default function Home() {
             }}
             >
               <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 capitalize">Your Home Partner 
-              <br /><span className="bg-[radial-gradient(circle,_var(--tw-gradient-stops))] from-[#c3972c] to-[#f6d94b] bg-clip-text text-transparent">Royal Construction</span>
-
+                <br /><span className="bg-[radial-gradient(circle,_var(--tw-gradient-stops))] from-[#c3972c] to-[#f6d94b] bg-clip-text text-transparent">Royal Construction</span>
               </motion.h1>
               <motion.p variants={childVariants} className={`text-lg dark:text-gray-300 capitalize`} >Build Your Dream Home With Us</motion.p>
               <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Royal Construction is a premier construction company committed to delivering high-quality infrastructure and architectural excellence. With years of experience in the industry, we specialize in residential, commercial, and industrial projects, ensuring durability, innovation, and customer satisfaction. </motion.p>
               <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400"> Our skilled team of engineers, architects, and project managers work with precision, using modern technology and sustainable building practices to create structures that stand the test of time. </motion.p>
               <motion.div variants={childVariants}>
-                <Link href="contact">
-                <Button text="Contact Us" className={`${syne.className}`} />
-                </Link></motion.div> 
-            </motion.div>
+                  <Link href="contact">
+                  <Button text="Contact Us" className={`${syne.className}`} />
+                  </Link></motion.div> 
+              </motion.div>
 
             <div className="col relative order-1 lg:order-2 lg:pl-5">
               
@@ -211,7 +210,7 @@ export default function Home() {
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.25 },
               }}>
               <Image
-                className="w-fll w-10/12 object-contain rounded-2xl"
+                className="w-full mb-5 lg:mb-0 lg:w-10/12 object-contain rounded-2xl"
                 src="/4df72new.jpeg"
                 alt="hero-image"
                 width="500"
