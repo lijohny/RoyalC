@@ -190,11 +190,13 @@ export default function Home() {
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
             }}
             >
-              <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">Meet Gnotis</motion.h1>
-              <motion.p variants={childVariants} className={`text-lg dark:text-gray-300`}>Enabling IT support services globally</motion.p>
-              <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">At Gnotis, we specialize in delivering expert IT solutions that empower organizations to focus on their core business. Our areas of expertise include break-fix services, IT dispatch, and seamless management of IT projects and incidents across global locations.</motion.p>
-              <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">With a robust network of skilled professionals, we provide on-demand IT talent that integrates seamlessly with your team, ensuring rapid response and reliable support whenever and wherever you need it. From addressing critical technical issues to managing complex IT projects, we deliver tailored solutions that drive operational efficiency and success.</motion.p>
-              <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Partner with Gnotis for dependable, responsive, and globally connected IT expertise.</motion.p>
+              <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 capitalize">Your Home Partner 
+              <br /><span className="bg-[radial-gradient(circle,_var(--tw-gradient-stops))] from-[#c3972c] to-[#f6d94b] bg-clip-text text-transparent">Royal Construction</span>
+
+              </motion.h1>
+              <motion.p variants={childVariants} className={`text-lg dark:text-gray-300 capitalize`} >Build Your Dream Home With Us</motion.p>
+              <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Royal Construction is a premier construction company committed to delivering high-quality infrastructure and architectural excellence. With years of experience in the industry, we specialize in residential, commercial, and industrial projects, ensuring durability, innovation, and customer satisfaction. </motion.p>
+              <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400"> Our skilled team of engineers, architects, and project managers work with precision, using modern technology and sustainable building practices to create structures that stand the test of time. </motion.p>
               <motion.div variants={childVariants}>
                 <Link href="contact">
                 <Button text="Contact Us" className={`${syne.className}`} />
@@ -209,8 +211,8 @@ export default function Home() {
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.25 },
               }}>
               <Image
-                className="w-fll w-10/12 object-contain"
-                src="/4df72new.png"
+                className="w-fll w-10/12 object-contain rounded-2xl"
+                src="/4df72new.jpeg"
                 alt="hero-image"
                 width="500"
                 height="500"

@@ -68,7 +68,7 @@ export default function Nav() {
                     <Image
                         className='w-32 lg:w-56'
                         // src="/logo-light.svg"
-                        src={theme === "dark" ? "/logo-dark.svg" : "/logo-light.svg"}
+                        src={theme === "dark" ? "/logo-light.png" : "/logo-light.png"}
                         alt="gnotis logo"
                         width="200"
                         height="50"
