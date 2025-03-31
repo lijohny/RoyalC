@@ -12,7 +12,7 @@ const syne = Syne({
 
 export default function Footer() {
     return (
-        <div className="gnotis-footer pt-20 lg:pt-40 relative">
+        <div className="royal construction -footer pt-20 lg:pt-40 relative">
             <div className="containers mx-auto">
                 <div className="footer-top relative lg:absolute"
                     style={{ zIndex: -1 }}>
@@ -25,7 +25,7 @@ export default function Footer() {
                             duration: 0.8,
                             x: { type: "spring", visualDuration: 1.8, bounce: 0.25 },
                         }}
-                    >Gnotis</motion.h2>
+                    >royal construction </motion.h2>
                 </div>
                 <div className="footer-content pt-20 pb-12 lg:pt-40 xl:pt-96 2xl:pt-96 lg:pb-8 lg:pl-32 relative overflow-hidden 2xl:h-[95vh]">
                     <div className="container mx-auto grid lg:grid-cols-3 gap-14 relative px-4 lg:px-8 xl:px-0" style={{ zIndex: 1 }}>
@@ -51,18 +51,23 @@ export default function Footer() {
                             <h3 className='uppercase font-bold text-white mb-5'>Keep in touch</h3>
 
                             <div className='space-y-2 mb-7'>
-                                {/* <p className='uppercase text-xs text-white'><span className='opacity-90'>Gnotis India:</span> <span className='font-semibold'> +91 8217541617</span></p> */}
-                                {/* <p className='uppercase text-xs text-white'><span className='opacity-90'>Gnotis Ireland:</span> <span className='font-semibold'> 353 015394680</span></p> */}
+                                {/* <p className='uppercase text-xs text-white'><span className='opacity-90'>royal construction  India:</span> <span className='font-semibold'> +91 8217541617</span></p> */}
+                                {/* <p className='uppercase text-xs text-white'><span className='opacity-90'>royal construction  Ireland:</span> <span className='font-semibold'> 353 015394680</span></p> */}
                                 <p className='uppercase text-xs text-white flex items-center'><span className='opacity-90'>
                                     <svg className='size-5 fill-white mr-2' width="792" height="792" viewBox="0 0 792 792" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M395.731 0.586182C176.807 0.586182 0.254883 178.903 0.254883 396.062C0.254883 614.986 178.572 791.538 395.731 791.538C614.655 791.538 791.207 613.221 791.207 396.062C791.207 178.903 614.655 0.586182 395.731 0.586182ZM641.138 586.738C630.545 622.048 582.876 673.248 538.738 673.248L535.207 671.483C469.882 667.952 379.841 606.159 296.862 505.524L266.848 468.448C183.869 367.814 139.731 268.945 150.324 205.386C157.386 159.483 224.476 122.407 263.317 122.407C282.738 122.407 289.8 131.234 291.565 138.297C312.751 177.138 341 244.228 341 268.945V272.476C335.703 284.834 325.11 291.897 316.282 297.193C303.924 304.255 296.862 309.552 295.096 321.91C295.096 325.441 298.627 344.862 353.358 411.952L376.31 440.2C431.041 505.524 448.696 512.586 452.227 512.586C466.351 514.352 471.648 509.055 482.241 498.462C489.303 489.634 498.131 480.807 510.489 479.041H514.02C538.738 484.338 598.765 523.179 634.076 553.193C639.372 554.959 648.2 563.786 641.138 586.738Z" />
                                     </svg>
 
-                                </span> <span className='font-semibold'> +1 630 440 4477 </span></p>
-                                {/* <p className='uppercase text-xs text-white'><span className='opacity-90'>Gnotis Australia:</span> <span className='font-semibold'> +61 (08) 7088 4865</span></p> */}
+                                </span> 
+                                <div className='flex flex-col'>
+                                    <span className='font-semibold'> 9446303499 </span>
+                                    <span className='font-semibold'> 8138099235 </span>
+                                </div>
+                                </p>
+                                {/* <p className='uppercase text-xs text-white'><span className='opacity-90'>royal construction  Australia:</span> <span className='font-semibold'> +61 (08) 7088 4865</span></p> */}
                             </div>
 
-                            <h4 className='uppercase font-medium text-white mb-4 text-sm lg:pr-40'>Subscribe to receive Gnotis News & Updates</h4>
+                            <h4 className='uppercase font-medium text-white mb-4 text-sm lg:pr-40'>Subscribe to receive royal construction  News & Updates</h4>
                             <div className="form-group relative inline-block">
                                 <form action="" className='flex items-center'>
                                     <input className='form-control rounded-full min-w-60 indent-2 text-xs' type="text" placeholder='Enter Email' />
@@ -78,17 +83,17 @@ export default function Footer() {
 
                             <div className='mb-5'>
                                 <h3 className='uppercase text-xs text-white'>Email</h3>
-                                <p className='text-xs text-white'>info@gnotis.io</p>
+                                <p className='text-xs text-white'>info@royal construction .io</p>
                             </div>
 
                             <div className='mb-5'>
                                 <h3 className='uppercase text-xs text-white'>Careers</h3>
-                                <p className='text-xs text-white'>careers@gnotis.io</p>
+                                <p className='text-xs text-white'>careers@royal construction .io</p>
                             </div>
 
                             <div className='mb-5'>
                                 <h3 className='uppercase text-xs text-white'>Support</h3>
-                                <p className='text-xs text-white'>support@gnotis.io</p>
+                                <p className='text-xs text-white'>support@royal construction .io</p>
                             </div>
 
                             <h3 className='uppercase text-xs text-white mb-2'>Follow us on</h3>
@@ -101,7 +106,7 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className='inline-block'>
-                                    <Link href="https://x.com/teamgnotis"><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <Link href="https://x.com/teamroyal construction "><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.374 3.09375H22.8213L15.292 11.6973L24.1494 23.4062H17.2158L11.7812 16.3066L5.57031 23.4062H2.11816L10.1699 14.2021L1.67871 3.09375H8.78809L13.6953 9.58301L19.374 3.09375ZM18.1631 21.3457H20.0723L7.74805 5.04688H5.69727L18.1631 21.3457Z" fill="white" />
                                     </svg>
                                     </Link>
@@ -113,14 +118,14 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className='inline-block'>
-                                    <Link href="https://www.linkedin.com/company/teamgnotis/"><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <Link href="https://www.linkedin.com/company/teamroyal construction /"><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M7.13867 22.6255H2.60352V8.021H7.13867V22.6255ZM4.86865 6.02881C3.41846 6.02881 2.24219 4.82764 2.24219 3.37744C2.24219 2.68086 2.5189 2.01281 3.01146 1.52025C3.50402 1.02769 4.17207 0.750977 4.86865 0.750977C5.56523 0.750977 6.23329 1.02769 6.72584 1.52025C7.2184 2.01281 7.49512 2.68086 7.49512 3.37744C7.49512 4.82764 6.31836 6.02881 4.86865 6.02881ZM24.1123 22.6255H19.5869V15.5161C19.5869 13.8218 19.5527 11.6489 17.229 11.6489C14.8711 11.6489 14.5098 13.4897 14.5098 15.394V22.6255H9.97949V8.021H14.3291V10.0132H14.3926C14.998 8.86572 16.4771 7.65479 18.6836 7.65479C23.2734 7.65479 24.1172 10.6772 24.1172 14.603V22.6255H24.1123Z" fill="white" />
                                     </svg>
                                     </Link>
                                 </li>
 
                                 <li className='inline-block'>
-                                    <Link href="https://www.instagram.com/teamgnotis/"><svg className="size-5" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <Link href="https://www.instagram.com/teamroyal construction /"><svg className="size-5" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M13.3445 7.63452C10.239 7.63452 7.73413 10.1394 7.73413 13.2449C7.73413 16.3503 10.239 18.8552 13.3445 18.8552C16.45 18.8552 18.9548 16.3503 18.9548 13.2449C18.9548 10.1394 16.45 7.63452 13.3445 7.63452ZM13.3445 16.8923C11.3376 16.8923 9.69702 15.2566 9.69702 13.2449C9.69702 11.2332 11.3328 9.59741 13.3445 9.59741C15.3562 9.59741 16.9919 11.2332 16.9919 13.2449C16.9919 15.2566 15.3513 16.8923 13.3445 16.8923ZM20.4929 7.40503C20.4929 8.13257 19.907 8.71362 19.1843 8.71362C18.4568 8.71362 17.8757 8.12769 17.8757 7.40503C17.8757 6.68237 18.4617 6.09644 19.1843 6.09644C19.907 6.09644 20.4929 6.68237 20.4929 7.40503ZM24.2087 8.73315C24.1257 6.98022 23.7253 5.42749 22.4412 4.14819C21.1619 2.8689 19.6091 2.46851 17.8562 2.38062C16.0496 2.27808 10.6345 2.27808 8.82788 2.38062C7.07983 2.46362 5.5271 2.86401 4.24292 4.14331C2.95874 5.42261 2.56323 6.97534 2.47534 8.72827C2.3728 10.5349 2.3728 15.95 2.47534 17.7566C2.55835 19.5095 2.95874 21.0623 4.24292 22.3416C5.5271 23.6208 7.07495 24.0212 8.82788 24.1091C10.6345 24.2117 16.0496 24.2117 17.8562 24.1091C19.6091 24.0261 21.1619 23.6257 22.4412 22.3416C23.7205 21.0623 24.1208 19.5095 24.2087 17.7566C24.3113 15.95 24.3113 10.5398 24.2087 8.73315ZM21.8748 19.6951C21.4939 20.6521 20.7566 21.3894 19.7947 21.7751C18.3542 22.3464 14.9363 22.2146 13.3445 22.2146C11.7527 22.2146 8.32983 22.3416 6.89429 21.7751C5.93726 21.3943 5.19995 20.657 4.81421 19.6951C4.24292 18.2546 4.37476 14.8367 4.37476 13.2449C4.37476 11.6531 4.2478 8.23022 4.81421 6.79468C5.19507 5.83765 5.93237 5.10034 6.89429 4.7146C8.33472 4.14331 11.7527 4.27515 13.3445 4.27515C14.9363 4.27515 18.3591 4.14819 19.7947 4.7146C20.7517 5.09546 21.489 5.83276 21.8748 6.79468C22.446 8.23511 22.3142 11.6531 22.3142 13.2449C22.3142 14.8367 22.446 18.2595 21.8748 19.6951Z" fill="white" />
                                     </svg></Link>
                                 </li>
@@ -129,7 +134,7 @@ export default function Footer() {
                     </div>
 
                     <div className="copyright text-center lg:text-left text-xs text-white pt-5 lg:pt-10 xl:pt-12">
-                        © {new Date().getFullYear()} Gnotis. All rights reserved.
+                        © {new Date().getFullYear()} Roayal Construction. All rights reserved.
                     </div>
 
                     <div className="globe absolute -right-40 -bottom-10 rotate-[-25deg]" style={{ zIndex: 0 }}>

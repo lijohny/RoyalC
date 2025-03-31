@@ -20,7 +20,7 @@ const syne = Syne({
 const StatusComponentItems = [
   {
     id: 1,
-    count: 1000+'+',
+    count: 10+'+',
     text: 'Accessible engineers'
   },
   {
@@ -51,7 +51,7 @@ const WhyGnotisItems = [
     id:2,
     icon:'icons/sales-marketing.svg',
     title:'Global Support',
-    description:'Gnotis is expanding to more places extending service offering worldwide - APAC, Europe and soon the Americas. Direct despatch of technicians to large businesses and other technology providers along with additional outsourcing capabilities are proven service offering by Gnotis.',
+    description:'royal construction  is expanding to more places extending service offering worldwide - APAC, Europe and soon the Americas. Direct despatch of technicians to large businesses and other technology providers along with additional outsourcing capabilities are proven service offering by royal construction .',
   },
   {
     id:3,
@@ -95,7 +95,7 @@ const childVariants = {
 export default function Home() {
 
   return (
-    <div className="gnotis-labs">
+    <div className="royal construction -labs">
       
       <div className="hero-container relative pt-10 lg:pt-12 xl:pt-0">
 
@@ -190,7 +190,7 @@ export default function Home() {
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
             }}
             >
-              <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 capitalize">Your Home Partner 
+              <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl 2xl:text-6xl font-bold mb-8 capitalize">Your Home Partner 
                 <br /><span className="bg-[radial-gradient(circle,_var(--tw-gradient-stops))] from-[#c3972c] to-[#f6d94b] bg-clip-text text-transparent">Royal Construction</span>
               </motion.h1>
               <motion.p variants={childVariants} className={`text-lg dark:text-gray-300 capitalize`} >Build Your Dream Home With Us</motion.p>
@@ -300,9 +300,9 @@ export default function Home() {
       <div className="container mx-auto pt-20 lg:pt-36 lg:pb-32 px-4 lg:px-16 xl:px-0">
         <div className="col">
           <motion.h1 initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="text-4xl lg:text-5xl font-bold text-center"><span className="linear-text">Gnotis In  Numbers</span></motion.h1>
+          whileInView={{ opacity: 1 }} className="text-4xl lg:text-5xl font-bold text-center"><span className="linear-text">royal construction  In  Numbers</span></motion.h1>
           <motion.p initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="mt-5 lg:mt-7 xl:max-w-2xl mx-auto text-center dark:text-gray-400">Gnotis provides IT Maintenance Services, based on decade worth of experience supporting businesses of all sizes in India, Singapore, Australia, Hong Kong, Malaysia, Indonesia, Philippines, Ireland, UK and Netherlands.</motion.p>
+          whileInView={{ opacity: 1 }} className="mt-5 lg:mt-7 xl:max-w-2xl mx-auto text-center dark:text-gray-400">royal construction  provides IT Maintenance Services, based on decade worth of experience supporting businesses of all sizes in India, Singapore, Australia, Hong Kong, Malaysia, Indonesia, Philippines, Ireland, UK and Netherlands.</motion.p>
 
           <motion.div className="column-grids grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5 lg:gap-8 xl:gap-16 mt-5 lg:mt-14 lg:max-w-5xl mx-auto"
           variants={containerVariants}
@@ -354,7 +354,7 @@ export default function Home() {
                                 </motion.div>
 
 
-      <div className="gnotis--catalyze two--grid-section relative">
+      <div className="royal construction --catalyze two--grid-section relative">
         <motion.div className="grid lg:grid-cols-2 items-center"
         variants={containerVariants}
         initial="hidden"
@@ -369,15 +369,15 @@ export default function Home() {
               x: { type: "spring", visualDuration: 1.8, bounce: 0.25 },
           }}
           style={{zIndex:-1}}
-          className={`text-4xl lg:text-5xl xl:text-[20rem] dark:!opacity-10 font-bold absolute text-gray-100 ${syne.className}`}>Gnotis</motion.h1>
+          className={`text-4xl lg:text-5xl xl:text-[20rem] dark:!opacity-10 font-bold absolute text-gray-100 ${syne.className}`}>royal construction </motion.h1>
 
           <div className="col max-w-10/12 xl:pr-32 order-2 lg:order-1">
-            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold !leading-[1.2]">Gnotis Catalyze</motion.h1>
+            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold !leading-[1.2]">royal construction  Catalyze</motion.h1>
             <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
-            At Gnotis, we are passionate about empowering startup founders, teams, and organizations to reach their highest potential. We don't just advise—we collaborate closely as partners on your growth journey, providing tailored expertise, resources, and strategic support to drive meaningful outcomes. Our commitment goes beyond conventional consulting; we immerse ourselves in understanding your unique challenges and aspirations to create sustainable success. Here's how our collaborative approach delivers results that matter
+            At royal construction , we are passionate about empowering startup founders, teams, and organizations to reach their highest potential. We don't just advise—we collaborate closely as partners on your growth journey, providing tailored expertise, resources, and strategic support to drive meaningful outcomes. Our commitment goes beyond conventional consulting; we immerse ourselves in understanding your unique challenges and aspirations to create sustainable success. Here's how our collaborative approach delivers results that matter
             </motion.p>
             <motion.div variants={childVariants}>
-            <Link href="/gnotis-catalyze">
+            <Link href="/royal construction -catalyze">
             <Button text="Learn More" className={`${syne.className}`} />
             </Link>
             </motion.div>
@@ -427,17 +427,17 @@ export default function Home() {
 
 
       <div className="container mx-auto pt-20 pb-20 lg:pt-24 lg:pb-24 px-4 lg:px-16 xl:px-0 overflow-hidden">
-      <div className="gnotis--labs two--grid-section">
+      <div className="royal construction --labs two--grid-section">
         <motion.div className="grid lg:grid-cols-2 items-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.4, once: true }}>
           <div className="col max-w-10/12 xl:pr-32 order-2">
-            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">Gnotis Labs</motion.h1>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Gnotis labs is the product development wing of Gnotis Limited. Gnotis Labs is engaged in the design and development of innovative products for the consumer and commercial markets. Through Gnotis Labs we build and orchestrate concepts to prototypes and to final products. Gnotis also works with founders and entrepreneurs of tomorrow who are ready to disrupt.</motion.p>
+            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">royal construction  Labs</motion.h1>
+            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">royal construction  labs is the product development wing of royal construction  Limited. royal construction  Labs is engaged in the design and development of innovative products for the consumer and commercial markets. Through royal construction  Labs we build and orchestrate concepts to prototypes and to final products. royal construction  also works with founders and entrepreneurs of tomorrow who are ready to disrupt.</motion.p>
             <motion.p variants={childVariants}>
-            <Link href="gnotis-labs">
+            <Link href="royal construction -labs">
             <Button text="Learn More" className={`${syne.className}`} />
             </Link>
             </motion.p>
@@ -554,7 +554,7 @@ export default function Home() {
         viewport={{ amount: 0.4, once: true }}>
           <div className="col max-w-10/12 xl:pr-32 order-2 lg:order-1">
             <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">Who We Are</motion.h1>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Gnotis is an experienced IT solutions provider, delivering Applications, Business Process Outsourcing, and IT Infrastructure services globally through expert technological capabilities and flexible business partnership models.</motion.p>
+            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">royal construction  is an experienced IT solutions provider, delivering Applications, Business Process Outsourcing, and IT Infrastructure services globally through expert technological capabilities and flexible business partnership models.</motion.p>
             <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Our core competencies include Product Marketing, Software Development, IT Outsourcing (including engineer placement), Maintenance and Dispatch Support, Hardware and Software Solutions and IT Consulting.</motion.p>
             <motion.div variants={childVariants}>
             <Link href="about">
@@ -594,7 +594,7 @@ export default function Home() {
       </div>
 
 
-      {/* WHY GNOTIS */}
+      {/* WHY royal construction  */}
       <div className="container mx-auto px-4 lg:px-16 xl:px-0 relative">
 
 

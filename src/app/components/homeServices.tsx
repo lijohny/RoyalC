@@ -7,8 +7,8 @@ const HomeServicesItems = [
   {
     id: 1,
     icon: 'icons/sales-marketing.svg',
-    title: 'Sales and marketing outsourcing',
-    description: 'Sales and Marketing partnership with Gnotis means exposure to better sales and marketing talent and techniques to your company.',
+    title: 'Construction Project Outsourcing',
+    description: 'Partnering with Royal Construction means gaining access to top-tier construction expertise and innovative building techniques. Our outsourcing solutions provide skilled labor, project management, and advanced construction strategies to ensure efficient and high-quality project execution. Whether you need support in planning, design, or on-site construction, our team delivers excellence with precision. Let us handle the complexities while you focus on growing your business with confidence..',
   },
   {
     id: 2,
