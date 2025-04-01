@@ -83,10 +83,10 @@ export default function Footer() {
 
                             <div className='mb-5'>
                                 <h3 className='uppercase text-xs text-white'>Email</h3>
-                                <p className='text-xs text-white'>info@royal construction .io</p>
+                                <p className='text-xs text-white'>enquire@royalconstruction.ltd</p>
                             </div>
 
-                            <div className='mb-5'>
+                            {/* <div className='mb-5'>
                                 <h3 className='uppercase text-xs text-white'>Careers</h3>
                                 <p className='text-xs text-white'>careers@royal construction .io</p>
                             </div>
@@ -94,7 +94,7 @@ export default function Footer() {
                             <div className='mb-5'>
                                 <h3 className='uppercase text-xs text-white'>Support</h3>
                                 <p className='text-xs text-white'>support@royal construction .io</p>
-                            </div>
+                            </div> */}
 
                             <h3 className='uppercase text-xs text-white mb-2'>Follow us on</h3>
                             <ul className='flex items-center gap-4 lg:gap-6'>
