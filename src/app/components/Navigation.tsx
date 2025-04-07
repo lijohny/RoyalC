@@ -137,19 +137,19 @@ export default function Nav() {
                                         }}
                                     >
                                         <li>
-                                            <Link href="infrastructure-service" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/infrastructure-service" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>IT Infrastructure Maintenance (Dispatch Services)</Link>
+                                            <Link href="infrastructure-service" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/infrastructure-service" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>House Plans & Designs</Link>
                                         </li>
                                         <li>
-                                            <Link href="sales-marketing-outsourcing" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/sales-marketing-outsourcing" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Sales & Marketing Outsourcing</Link>
+                                            <Link href="sales-marketing-outsourcing" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/sales-marketing-outsourcing" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Interior design</Link>
                                         </li>
                                         <li>
-                                            <Link href="business-process-outsourcing" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/business-process-outsourcing" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Business Process Outsourcing</Link>
+                                            <Link href="business-process-outsourcing" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/business-process-outsourcing" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>exterior design</Link>
                                         </li>
                                         <li>
-                                            <Link href="staff-augmentation" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/staff-augmentation" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Staff Augmentation</Link>
+                                            <Link href="staff-augmentation" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/staff-augmentation" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Landscaping</Link>
                                         </li>
                                         <li>
-                                            <Link href="erp-solutions" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/erp-solutions" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>ERP Solutions</Link>
+                                            <Link href="erp-solutions" className={`py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/erp-solutions" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Outdoor gardening</Link>
                                         </li>
 
                                     </motion.ul>
@@ -229,7 +229,7 @@ export default function Nav() {
                                     href="">Services</Link>
 
                                 <ul className="p-5 lg:p-4 space-y-1 z-50 bg-gray-100 dark:bg-gray-800 mt-3">
-                                    <li className='hover:bg-slate-400 rounded-lg ease-in-out duration-75'> <Link onClick={() => { handleLinkClick(); vibrateOnMobile(); }} onFocus={vibrateOnMobile} href="infrastructure-service" className={`focus:text-sky-500 focus:scale-105 transition py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/infrastructure-service" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>IT Infrastructure Maintenance (Dispatch Services)</Link></li>
+                                    <li className='hover:bg-slate-400 rounded-lg ease-in-out duration-75'> <Link onClick={() => { handleLinkClick(); vibrateOnMobile(); }} onFocus={vibrateOnMobile} href="infrastructure-service" className={`focus:text-sky-500 focus:scale-105 transition py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/infrastructure-service" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Build your Home with us</Link></li>
                                     <li className='hover:bg-slate-400 rounded-lg ease-in-out duration-75'> <Link onClick={() => { handleLinkClick(); vibrateOnMobile(); }} onFocus={vibrateOnMobile} href="sales-marketing-outsourcing" className={`focus:text-sky-500 focus:scale-105 transition py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/sales-marketing-outsourcing" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Sales & Marketing Outsourcing</Link></li>
                                     <li className='hover:bg-slate-400 rounded-lg ease-in-out duration-75'><Link onClick={() => { handleLinkClick(); vibrateOnMobile(); }} onFocus={vibrateOnMobile} href="business-process-outsourcing" className={`focus:text-sky-500 focus:scale-105 transition py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full ${pathname === "/business-process-outsourcing" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Business Process Outsourcing</Link></li>
                                     <li className='hover:bg-slate-400 rounded-lg ease-in-out duration-75'><Link onClick={() => { handleLinkClick(); vibrateOnMobile(); }} onFocus={vibrateOnMobile} href="staff-augmentation" className={`focus:text-sky-500 focus:scale-105 transition py-2 lg:py-2 block px-4 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900 rounded w-full  ${pathname === "/staff-augmentation" ? "text-sky-500 dark:text-sky-500 font-bold" : ""}`}>Staff Augmentation</Link></li>

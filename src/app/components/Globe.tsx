@@ -18,57 +18,58 @@ const globePositions: GlobePosition[] = [
   {
     country: 'India',
     flag: '/flags/india.webp',
-    address: 'Balakrishna Menon Road, 3rd Lane, Kochi, Kerala 682024, IN',
+    address: 'Royal constructions, Studio Rd Nemom, Plangala mukku, Thiruvananthapuram, Kerala 695019, IN',
     position: {
       desktop: '-380px 0px',
       mobile: '-280px 0px'
-    }
-  },
-  {
-    country: 'Australia',
-    flag: '/flags/australia.webp',
-    address: 'Collins St, Docklands, Victoria 3008, AU',
-    position: {
-      desktop: '-380px 0px',
-      mobile: '-280px 0px'
-    }
-  },
-  {
-    country: 'UK',
-    flag: '/flags/uk.webp',
-    address: '',
-    position: {
-      desktop: '-250px 0px',
-      mobile: '-150px 0px'
-    }
-  },
-  {
-    country: 'Belgium',
-    flag: '/flags/belgium.webp',
-    address: '',
-    position: {
-      desktop: '-250px 0px',
-      mobile: '-200px 0px'
-    }
-  },
-  {
-    country: 'Ireland',
-    flag: '/flags/ireland.webp',
-    address: '13 Adelaide Road, Dublin 2, County Dublin IE',
-    position: {
-      desktop: '-180px 0px',
-      mobile: '-180px 0px'
-    }
-  },
-  {
-    country: 'US',
-    flag: '/flags/usa.webp',
-    address: '',
-    position: {
-      desktop: '-20px 0px',
-      mobile: '-20px 0px'
     }
   }
+
+  // {
+  //   country: 'Australia',
+  //   flag: '/flags/australia.webp',
+  //   address: 'Collins St, Docklands, Victoria 3008, AU',
+  //   position: {
+  //     desktop: '-380px 0px',
+  //     mobile: '-280px 0px'
+  //   }
+  // },
+  // {
+  //   country: 'UK',
+  //   flag: '/flags/uk.webp',
+  //   address: '',
+  //   position: {
+  //     desktop: '-250px 0px',
+  //     mobile: '-150px 0px'
+  //   }
+  // },
+  // {
+  //   country: 'Belgium',
+  //   flag: '/flags/belgium.webp',
+  //   address: '',
+  //   position: {
+  //     desktop: '-250px 0px',
+  //     mobile: '-200px 0px'
+  //   }
+  // },
+  // {
+  //   country: 'Ireland',
+  //   flag: '/flags/ireland.webp',
+  //   address: '13 Adelaide Road, Dublin 2, County Dublin IE',
+  //   position: {
+  //     desktop: '-180px 0px',
+  //     mobile: '-180px 0px'
+  //   }
+  // },
+  // {
+  //   country: 'US',
+  //   flag: '/flags/usa.webp',
+  //   address: '',
+  //   position: {
+  //     desktop: '-20px 0px',
+  //     mobile: '-20px 0px'
+  //   }
+  // }
 ]
 
 export default function Globe() {
@@ -130,8 +131,8 @@ export default function Globe() {
               left: position.left,
             }}
             transition={{
-              duration: 0.5, // Animation duration
-              ease: 'easeInOut', // Easing function
+              duration: 0.5,
+              ease: 'easeInOut',
             }}
           >
             <div className="flex bg-white rounded-e-full rounded-tl-full shadow-lg country-item items-center px-3 py-1">
@@ -171,7 +172,7 @@ export default function Globe() {
                 <Image src={currentGlobePosition.flag} className="h-full w-full object-cover" width="50" height="50" alt="globe" />
               </div>
             </div>
-            <p className='text-sm dark:text-gray-400'>info@gnotis.io</p>
+            <p className='text-sm dark:text-gray-400'>enquire@royalconstruction.ltd</p>
             <p className='text-sm dark:text-gray-400'>{currentGlobePosition.address}</p>
             {/* <button className='border border-gray-900 rounded text-sm dark:border-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-400 dark:text-gray-400 font-semibold hover:bg-gray-900 hover:text-white mt-2 px-3 py-1'>View in Map</button> */}
           </div>

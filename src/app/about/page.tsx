@@ -13,6 +13,7 @@ import Timeline from "../components/Timeline";
 import Link from "next/link";
 import Button from "../components/Button";
 import { useParams, usePathname } from "next/navigation";
+import { FaBuilding, FaGlobe, FaProjectDiagram } from 'react-icons/fa';
 
 const syne = Syne({
   weight: ['400', '700'],
@@ -41,27 +42,37 @@ const StatusComponentItems = [
     text: 'Years of Experience'
   }
 ]
+// Update the type to ReactNode for the icon
+type SimpleBlueComponentItems = {
+  id: number;
+  icon: string; // Change back to string to match the other file
+  title: string;
+  description: string;
+};
 
-const WhyGnotisItems = [
+const WhyGnotisItems: SimpleBlueComponentItems[] = [
   {
     id: 1,
-    icon: 'icons/sales-marketing.svg',
-    title: 'Total Cost of Ownership',
-    description: 'Moving to a single service facilitation hub through Gnotis reduces wait times and increase operational efficiency.',
+    icon: "/path/to/building-icon.svg", // Replace with a string path to the icon
+    title: 'Quality Construction Services',
+    description:
+      'At Royal Construction, we ensure that every project, from residential to commercial, is completed with the highest standards of quality. Our skilled team is dedicated to delivering outstanding results that meet our clients’ unique needs.',
   },
   {
     id: 2,
-    icon: 'icons/sales-marketing.svg',
-    title: 'Global Support',
-    description: 'Gnotis is expanding to more places extending service offering worldwide - APAC, Europe and soon the Americas. Direct despatch of technicians to large businesses and other technology providers along with additional outsourcing capabilities are proven service offering by Gnotis.',
+    icon: "/path/to/globe-icon.svg", // Replace with a string path to the icon
+    title: 'Global Reach, Local Expertise',
+    description:
+      'With operations spanning across multiple continents, Royal Construction brings local expertise to every project, regardless of location. Whether in the United States, UK, or the Middle East, we combine global knowledge with a focus on local requirements to deliver excellence.',
   },
   {
     id: 3,
-    icon: 'icons/sales-marketing.svg',
-    title: 'Consulting',
-    description: 'We are enabling clients and partners to uncover positive potentials and help shaping their product and service portfolio to grow. We review the IT estate and propose various cost effective and efficient model to small and medium businesses.',
-  }
-]
+    icon: "/path/to/project-diagram-icon.svg", // Replace with a string path to the icon
+    title: 'Project Management Excellence',
+    description:
+      'Our experienced project managers ensure that every aspect of your construction project is handled efficiently. From planning to execution, we prioritize clear communication, timely delivery, and cost control to meet project goals successfully.',
+  },
+];
 
 interface GlobePosition {
   country: string;
@@ -171,8 +182,9 @@ export default function About( ) {
                   scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
                 }}
               >
-                <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl xl:text-6xl font-bold">About Gnotis</motion.h1>
-                <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Gnotis is an experienced IT solutions provider, offering Applications, Business Process Outsourcing and IT Infrastructure services globally through a combination of expert technology backing, effective and flexible business partnership models.</motion.p>
+<motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl xl:text-6xl font-bold">About Royal Construction Company</motion.h1>
+<motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Royal Construction Company is a leading provider of high-quality construction services. With years of expertise in residential, commercial, and industrial projects, we specialize in delivering exceptional results through innovative solutions, meticulous planning, and strong project management. Our commitment to safety, sustainability, and client satisfaction has made us a trusted partner in the construction industry globally.</motion.p>
+
 
               </motion.div>
 
@@ -255,10 +267,11 @@ export default function About( ) {
               viewport={{ amount: 0.4, once: true }}
             >
               <div className="col xl:pr-32 lg:w-2/3">
-                <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">How we started</motion.h1>
-                <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Established since 2012, we have extensive experience in product development and support of the IT in both local and International companies across Ireland, United Kingdom, Netherlands, India, Australia, Hong Kong, Singapore, and throughout SE Asia. Our clients include global ITO companies as well as significant local companies.</motion.p>
-                <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Our core areas are Product marketing, Software Development, IT Outsourcing (including engineer placement), Maintenance and Dispatch support services, Hardware and Software supply, IT Consulting and managing and delivering on turn-key implementation projects.</motion.p>
-                <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">You can be assured with us; you are talking to people with a track-record of being able to make the difference where it matters. Our goal is to deliver great work and for our customers to be happy from their IT being efficient and well maintained and thus helping their business to function smoothly. We have a friendly and down-to-earth approach and make meaningful differences by getting to the heart of our customer's IT needs with alignment to their business goals and objectives.</motion.p>
+              <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">How We Started</motion.h1>
+<motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Founded in 2005, Royal Construction Company has grown into a leading force in the construction industry. With over 18 years of experience in residential, commercial, and industrial development, we've earned a strong reputation for delivering projects of exceptional quality. Operating globally, we have successfully completed projects across the United States, United Kingdom, Canada, Australia, and the Middle East, partnering with clients from various sectors, including real estate, infrastructure, and government.</motion.p>
+<motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Our core services include building design and construction, project management, civil engineering, renovation and restoration, and specialized construction services. We also offer comprehensive consulting services to ensure that every project is completed efficiently, on time, and within budget.</motion.p>
+<motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">At Royal Construction Company, we pride ourselves on our ability to turn visions into reality. Our experienced team works closely with clients to understand their specific needs, ensuring that every project meets the highest standards of craftsmanship, sustainability, and safety. We are committed to providing innovative solutions, and our client-first approach has made us a trusted name in the construction industry.</motion.p>
+
               </div>
               <motion.div className="col flex w-2/6 flex-1 -space-x-10 justify-center xl:h-[470px] xl:max-h-[550px]"
                 initial={{ scale: 0.5 }}
@@ -424,25 +437,26 @@ export default function About( ) {
 
       {/* WHY GNOTIS */}
       <div className="container mx-auto pt-12 lg:pt-20 xl:pt-40 px-4 lg:px-16 xl:px-0">
-        <h1 className="linear-text text-4xl lg:text-5xl font-bold !leading-6">Why Gnotis ?</h1>
-        <div className="flex justify-between items-center mt-5 lg:mt-7 lg:pb-16 pb-10 flex-col lg:flex-row">
-          <p className="xl:max-w-4xl dark:text-gray-400">We recruit only the best staff that have the right ability to deal with the jobs on hand. We know it's not just about IT and having people with a friendly and professional manner is equally valuable.</p>
+      <h1 className="linear-text text-4xl lg:text-5xl font-bold !leading-[6.5rem]">Why Royal Construction?</h1>
+<div className="flex justify-between items-center mt-5 lg:mt-7 lg:pb-16 pb-10 flex-col lg:flex-row">
+  <p className="xl:max-w-4xl dark:text-gray-400">At Royal Construction Company, we believe in delivering nothing less than excellence. Our team is made up of highly skilled professionals who are experts in their respective fields. From engineers and architects to project managers and contractors, each member is committed to delivering projects with the utmost attention to detail, safety, and quality. We also prioritize strong communication and a customer-first mindset to ensure that each project is executed seamlessly, on time, and within budget.</p>
           <motion.div variants={childVariants}>
-                <Link href="contact">
-                <Button text="Contact Us" className={`${syne.className}`} />
-                </Link>
-          </motion.div> 
-        </div>
-        <motion.div className="grid lg:grid-cols-3 gap-5 lg:gap-10"
+            <Link href="contact">
+              <Button text="Contact Us" className={`${syne.className}`} />
+            </Link>
+          </motion.div>
+</div>
+
+      <motion.div
+          className="grid lg:grid-cols-3 gap-5 lg:gap-10"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ amount: 0.4, once: true }}>
-          {WhyGnotisItems.map((item) => {
-            return (
-              <SimpleBlueComponentItem item={item} key={item.id} />
-            )
-          })}
+          viewport={{ amount: 0.4, once: true }}
+        >
+          {WhyGnotisItems.map((item) => (
+            <SimpleBlueComponentItem item={item} key={item.id} />
+          ))}
         </motion.div>
       </div>
 

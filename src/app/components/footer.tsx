@@ -33,16 +33,19 @@ export default function Footer() {
                             <h3 className='uppercase font-bold text-white mb-5'>ABOUT</h3>
                             <ul className='text-white space-y-5 uppercase text-xs'>
                                 <li>
-                                    <Link href="">Infrastructure Support & Service</Link>
+                                    <Link href="infrastructure-service">House Plans & Designs</Link>
                                 </li>
                                 <li>
-                                    <Link href="">Sales & Marketing Outsourcing</Link>
+                                    <Link href="">Interior design</Link>
                                 </li>
                                 <li>
-                                    <Link href="">Products</Link>
+                                    <Link href="">exterior design</Link>
                                 </li>
                                 <li>
-                                    <Link href="">Services</Link>
+                                    <Link href="">Landscaping</Link>
+                                </li>
+                                <li>
+                                    <Link href="">Outdoor gardening</Link>
                                 </li>
                             </ul>
                         </div>
@@ -105,24 +108,27 @@ export default function Footer() {
                                         </svg>
                                     </Link>
                                 </li>
+
                                 <li className='inline-block'>
                                     <Link href="https://x.com/teamroyal construction "><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.374 3.09375H22.8213L15.292 11.6973L24.1494 23.4062H17.2158L11.7812 16.3066L5.57031 23.4062H2.11816L10.1699 14.2021L1.67871 3.09375H8.78809L13.6953 9.58301L19.374 3.09375ZM18.1631 21.3457H20.0723L7.74805 5.04688H5.69727L18.1631 21.3457Z" fill="white" />
                                     </svg>
                                     </Link>
                                 </li>
-                                <li className='inline-block'>
+
+                                {/* <li className='inline-block'>
                                     <Link href=""><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M25.1396 13.25C25.1396 19.9395 19.7197 25.3594 13.0303 25.3594C11.7803 25.3594 10.5791 25.1689 9.44629 24.8174C9.93945 24.0117 10.6768 22.6934 10.9502 21.6436C11.0967 21.0771 11.7021 18.7627 11.7021 18.7627C12.0977 19.5146 13.25 20.1543 14.4756 20.1543C18.1279 20.1543 20.7598 16.7949 20.7598 12.6201C20.7598 8.62109 17.4932 5.62793 13.2939 5.62793C8.06934 5.62793 5.29102 9.13379 5.29102 12.957C5.29102 14.7344 6.23828 16.9463 7.74707 17.6494C7.97656 17.7568 8.09863 17.708 8.15234 17.4883C8.19141 17.3223 8.39648 16.4971 8.48926 16.1162C8.51855 15.9941 8.50391 15.8867 8.40625 15.7695C7.91309 15.1592 7.5127 14.0459 7.5127 13.0059C7.5127 10.335 9.53418 7.75195 12.9814 7.75195C15.9551 7.75195 18.04 9.77832 18.04 12.6787C18.04 15.9551 16.3848 18.2256 14.2314 18.2256C13.0449 18.2256 12.1514 17.2441 12.4395 16.0381C12.7812 14.5977 13.4404 13.0449 13.4404 12.0049C13.4404 11.0771 12.9424 10.3008 11.9072 10.3008C10.6914 10.3008 9.71484 11.5557 9.71484 13.2402C9.71484 14.3145 10.0762 15.0371 10.0762 15.0371C10.0762 15.0371 8.87988 20.1055 8.66016 21.0527C8.41602 22.0977 8.51367 23.5723 8.61621 24.5293C4.11426 22.7666 0.920898 18.3818 0.920898 13.25C0.920898 6.56055 6.34082 1.14062 13.0303 1.14062C19.7197 1.14062 25.1396 6.56055 25.1396 13.25Z" fill="white" />
                                     </svg>
                                     </Link>
-                                </li>
-                                <li className='inline-block'>
+                                </li> */}
+
+                                {/* <li className='inline-block'>
                                     <Link href="https://www.linkedin.com/company/teamroyal construction /"><svg className="size-5" width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M7.13867 22.6255H2.60352V8.021H7.13867V22.6255ZM4.86865 6.02881C3.41846 6.02881 2.24219 4.82764 2.24219 3.37744C2.24219 2.68086 2.5189 2.01281 3.01146 1.52025C3.50402 1.02769 4.17207 0.750977 4.86865 0.750977C5.56523 0.750977 6.23329 1.02769 6.72584 1.52025C7.2184 2.01281 7.49512 2.68086 7.49512 3.37744C7.49512 4.82764 6.31836 6.02881 4.86865 6.02881ZM24.1123 22.6255H19.5869V15.5161C19.5869 13.8218 19.5527 11.6489 17.229 11.6489C14.8711 11.6489 14.5098 13.4897 14.5098 15.394V22.6255H9.97949V8.021H14.3291V10.0132H14.3926C14.998 8.86572 16.4771 7.65479 18.6836 7.65479C23.2734 7.65479 24.1172 10.6772 24.1172 14.603V22.6255H24.1123Z" fill="white" />
                                     </svg>
                                     </Link>
-                                </li>
+                                </li> */}
 
                                 <li className='inline-block'>
                                     <Link href="https://www.instagram.com/teamroyal construction /"><svg className="size-5" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

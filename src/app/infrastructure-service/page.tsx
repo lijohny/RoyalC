@@ -82,17 +82,25 @@ export default function InfrastructureService() {
                 width="500"
                 height="500"
               /></motion.div>
-              <motion.h1 variants={childVariants} className="linear-text text-3xl sm:text-4xl lg:text-5xl xl:text-4xl font-bold">Infrastructure Support & Service</motion.h1>
-              <motion.p variants={childVariants} className="mt-5 lg:mt-5 dark:text-gray-400">Gnotis delivers IT Maintenance Services backed by a decade of experience supporting businesses of all sizes across India, Singapore, Australia, Hong Kong, Malaysia, Indonesia, the Philippines, Ireland, the UK, and the Netherlands.</motion.p>
+              <motion.h1 variants={childVariants} className="linear-text text-3xl sm:text-4xl lg:text-5xl xl:text-4xl font-bold">build your Home</motion.h1>
+              <motion.p variants={childVariants} className="mt-5 lg:mt-5 dark:text-gray-400">
+                Royal Construction offers innovative and luxurious house plans tailored to embody the essence of comfort and elegance. 
+                Our designs emphasize modern aesthetics combined with functional living spaces that cater to diverse lifestyles. 
+                Each blueprint is meticulously crafted to optimize space, ensuring that each area is both aesthetically pleasing and highly practical. 
+                From sprawling open-plan kitchens to serene, spacious bedrooms and innovative storage solutions, 
+                </motion.p>
 
               <motion.p variants={childVariants} className="mt-5 lg:mt-5 dark:text-gray-400">
-              Through our merger and partnership with the EIL Global Group, Gnotis is expanding its reach to provide support in additional countries, including the North American region
+              Royal Construction's house plans are thoughtfully designed to meet the high expectations of our discerning clients. 
+                Whether you're looking to build a cozy bungalow or a majestic multi-story residence, 
+                our commitment to quality and attention to detail shines through in every project. 
+                With Royal Construction, your dream home is not just a plan, but a promise of a masterpiece in the making.
               </motion.p>
 
               <div className="chips flex flex-wrap gap-5 lg:gap-3 mt-3 lg:mt-20 mb-5 lg:mb-8">
-                <div className="px-3 py-2 border shadow-sm text-slate-800 bg-slate-50 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400  border-slate-200 inline-block rounded-md sm:text-sm font-bold">IT Infrastructure Maintenance (Dispatch Services)</div>
-                <div className="px-3 py-2 border shadow-sm text-slate-800 bg-slate-50 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400  border-slate-200 inline-block rounded-md sm:text-sm font-bold">Service Provision</div>
-                <div className="px-3 py-2 border shadow-sm text-slate-800 bg-slate-50 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400  border-slate-200 inline-block rounded-md sm:text-sm font-bold">Project  & Consulting Service</div>
+                <div className="px-3 py-2 border shadow-sm text-slate-800 bg-slate-50 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400  border-slate-200 inline-block rounded-md sm:text-sm font-bold">Functionality and Flow</div>
+                <div className="px-3 py-2 border shadow-sm text-slate-800 bg-slate-50 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400  border-slate-200 inline-block rounded-md sm:text-sm font-bold">Light and Ventilation</div>
+                <div className="px-3 py-2 border shadow-sm text-slate-800 bg-slate-50 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400  border-slate-200 inline-block rounded-md sm:text-sm font-bold">Aesthetic and Style</div>
               </div>
               
             </motion.div>
@@ -125,40 +133,42 @@ export default function InfrastructureService() {
     {/* HOW WE STARTED */}
     <div className="how-we-started">
     <div className="container mx-auto pt-20 pb-20 lg:pt-24 lg:pb-24 px-4 lg:px-16 xl:px-0">
-      <div className="gnotis--catalyze two--grid-section relative">
+      <div className="royal construction--catalyze two--grid-section relative">
         <motion.div className="flex items-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         >
           <div className="col xl:pr-32 lg:w-2/3">
-            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-4xl font-bold">IT Infrastructure Maintenance (Dispatch Services)</motion.h1>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Gnotis delivers IT Maintenance Services built on a decade of expertise supporting businesses across APAC, EMEA and USCA regions with direct presence in India, Singapore, Australia, New Zealand, Hong Kong, Malaysia, Ireland, the UK, Germany and the USA.</motion.p>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">We adhere to ITIL-based service delivery standards, ensuring compliance with back-to-back SLAs established with our customers. Our skilled resource pool, spread across these regions, is cross trained to enhance efficiency and effectiveness. We own the end to end responsibility including managing vetted technician availability, ensuring on-time arrivals at job sites, and providing detailed, timecard-based reporting using our AI driven in house developed ERP platform.</motion.p>
+            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-4xl font-bold">Functionality and Flow</motion.h1>
+            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Functionality and Flow: The layout of a home should promote ease of movement and practicality for daily activities. This includes the logical arrangement of rooms, such as placing bathrooms conveniently adjacent to bedrooms and designing kitchens that open into dining or living areas. </motion.p>
+            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Ensuring good flow helps in maintaining an organized and comfortable living environment.</motion.p>
 
-            <motion.p variants={childVariants} className="mt-3 dark:text-gray-400 mb-3 font-semibold">Our technicians bring extensive experience in</motion.p>
+            <motion.p variants={childVariants} className="mt-3 dark:text-gray-400 mb-3 font-semibold">Light and Ventilation: Maximizing natural light and ensuring adequate ventilation are essential aspects of house design. This can involve strategically placing windows and doors, considering the orientation of the house to capture sunlight at the right times of the day, and incorporating other architectural elements like skylights or larger windows to enhance light and air circulation.</motion.p>
             
-            <motion.ul className="list-disc pl-4">
-              <motion.li variants={childVariants}>Installing and configuring desktops, laptops, and user data migration.</motion.li>
-              <motion.li variants={childVariants}>Setting up network printing and network drives.</motion.li>
-              <motion.li variants={childVariants}>Installing and configuring servers, storage, and network devices.</motion.li>
-              <motion.li variants={childVariants}>Delivering deskside support for users.</motion.li>
-              <motion.li variants={childVariants}>Conducting user audits, as well as physical and wireless surveys.</motion.li>
-              <motion.li variants={childVariants}>Cloud provisioning and engineering support.</motion.li>
+            <motion.ul className="list-disc pl-4 dark:text-gray-400">
+              <motion.li variants={childVariants}>Installing and configuring heavy construction equipment and safety systems.</motion.li>
+              <motion.li variants={childVariants}>Setting up logistical support for material and equipment delivery to the construction site.</motion.li>
+              <motion.li variants={childVariants}>Establishing on-site quality control labs for continuous monitoring of material quality.</motion.li>
+              <motion.li variants={childVariants}>Providing onsite training and support for construction safety practices.</motion.li>
+              <motion.li variants={childVariants}>Conducting regular safety audits and compliance checks to adhere to industry standards.</motion.li>
+              <motion.li variants={childVariants}>Implementing quality assurance processes and continuous improvement programs for construction projects.</motion.li>
             </motion.ul>
 
 
 
             <motion.p variants={childVariants} className="mt-3 dark:text-gray-400 mb-3 font-semibold">Our services include:</motion.p>
-            
-            <motion.ul className="list-disc pl-4">
-              <motion.li variants={childVariants}>24X7X4 OnDemand IT support in APAC, EMEA & USCA</motion.li>
-              <motion.li variants={childVariants}>End User Computing support / Data centre/ Cloud and Network support</motion.li>
-              <motion.li variants={childVariants}>Emergency call out support / VIP white glove support</motion.li>
-            </motion.ul>
 
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">We offer 24/7 on-demand dispatch,  staff augmentation services, technical project support and global rollout program management to support your IT infrastructure. Additionally, we provide Monthly Maintenance Contracts (MMC) and Annual Maintenance Contracts (AMC), ensuring periodic visits for proactive IT health checks. To address hardware issues, we also offer a loaner service for replacement devices until faulty ones are procured and replaced.</motion.p>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Gnotis is committed to keeping your IT systems running seamlessly with reliable, professional, and efficient support.</motion.p>
+          <motion.ul className="list-disc pl-4 dark:text-gray-400">
+            <motion.li variants={childVariants}>24/7 On-Site Construction Support across multiple regions</motion.li>
+            <motion.li variants={childVariants}>Comprehensive building and infrastructure construction support</motion.li>
+            <motion.li variants={childVariants}>Emergency response teams and priority support for critical project phases</motion.li>
+          </motion.ul>
+
+          <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">We offer 24/7 on-demand construction site management, workforce augmentation services, technical project support, and global rollout program management to support your building projects. Additionally, we provide Monthly Maintenance Contracts (MMC) and Annual Maintenance Contracts (AMC), ensuring periodic site visits for proactive structural health checks. To address equipment issues, we also offer a loaner service for replacement machinery until faulty ones are repaired or replaced.</motion.p>
+
+          <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Royal Construction is committed to keeping your construction projects running seamlessly with reliable, professional, and efficient support.</motion.p>
+
           </div>
           <motion.div className="col flex w-2/6 flex-1 -space-x-10 justify-center xl:h-[470px] xl:max-h-[550px]"
           initial={{ scale:0.5 }}

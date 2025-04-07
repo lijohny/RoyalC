@@ -370,18 +370,18 @@ export default function Home() {
           }}
           style={{zIndex:-1}}
           className={`text-4xl lg:text-5xl xl:text-[20rem] dark:!opacity-10 font-bold absolute text-gray-100 ${syne.className}`}>royal construction </motion.h1>
+<div className="col max-w-10/12 xl:pr-32 order-2 lg:order-1">
+  <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold !leading-[1.2]">Royal Construction Catalyze</motion.h1>
+  <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
+    At Royal Construction, we are committed to helping startups and businesses unlock their full potential. Through Royal Construction Catalyze, we provide more than just guidance—we become true partners in your growth journey. By combining our industry expertise, resources, and strategic insight, we work hand-in-hand with your team to achieve sustainable success and overcome challenges. Our approach is personalized to fit your unique needs, ensuring that we deliver results that truly matter and accelerate your progress.
+  </motion.p>
+  <motion.div variants={childVariants}>
+    <Link href="/royal-construction-catalyze">
+      <Button text="Learn More" className={`${syne.className}`} />
+    </Link>
+  </motion.div>
+</div>
 
-          <div className="col max-w-10/12 xl:pr-32 order-2 lg:order-1">
-            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold !leading-[1.2]">royal construction  Catalyze</motion.h1>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
-            At royal construction , we are passionate about empowering startup founders, teams, and organizations to reach their highest potential. We don't just advise—we collaborate closely as partners on your growth journey, providing tailored expertise, resources, and strategic support to drive meaningful outcomes. Our commitment goes beyond conventional consulting; we immerse ourselves in understanding your unique challenges and aspirations to create sustainable success. Here's how our collaborative approach delivers results that matter
-            </motion.p>
-            <motion.div variants={childVariants}>
-            <Link href="/royal construction -catalyze">
-            <Button text="Learn More" className={`${syne.className}`} />
-            </Link>
-            </motion.div>
-          </div>
 
 
             <motion.div className="col flex -space-x-10 justify-center h-[300px] xl:h-[470px] xl:max-h-[550px] order-1 lg:order-2 w-full mx-auto mb-5 lg:mb-0"
@@ -433,16 +433,24 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.4, once: true }}>
-          <div className="col max-w-10/12 xl:pr-32 order-2">
-            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">royal construction  Labs</motion.h1>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">royal construction  labs is the product development wing of royal construction  Limited. royal construction  Labs is engaged in the design and development of innovative products for the consumer and commercial markets. Through royal construction  Labs we build and orchestrate concepts to prototypes and to final products. royal construction  also works with founders and entrepreneurs of tomorrow who are ready to disrupt.</motion.p>
-            <motion.p variants={childVariants}>
-            <Link href="royal construction -labs">
-            <Button text="Learn More" className={`${syne.className}`} />
-            </Link>
-            </motion.p>
-            
-          </div>
+<div className="col max-w-10/12 xl:pr-32 order-2">
+  <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">Royal Construction Labs</motion.h1>
+  <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
+    Royal Construction Labs is the research and innovation arm of Royal Construction. Dedicated to pushing the boundaries of design and technology, Royal Construction Labs focuses on developing cutting-edge construction solutions that integrate the latest advancements in materials, sustainability, and smart technology. Our team of engineers and designers collaborate to transform ideas into tangible, functional products that meet the evolving needs of the construction industry.
+  </motion.p>
+  <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
+    We work closely with startups, entrepreneurs, and forward-thinking companies to bring innovative concepts to life. Whether it’s through the development of eco-friendly building materials or pioneering smart home systems, Royal Construction Labs is at the forefront of reshaping the future of construction and architecture.
+  </motion.p>
+  <motion.div variants={childVariants}>
+    <Link href="royal-construction-labs">
+      <Button text="Learn More" className={`${syne.className}`} />
+    </Link>
+  </motion.div>
+</div>
+
+
+
+
           <motion.div className="col order-1 flex -space-x-2 lg:-space-x-8 items-baseline h-[300px] xl:h-[470px] xl:max-h-[550px] pl-2 lg:pl-0 mb-5 lg:mb-0"
           initial={{ scale:0.5 }}
           whileInView={{ scale:1 }}
@@ -552,15 +560,22 @@ export default function Home() {
         initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.4, once: true }}>
-          <div className="col max-w-10/12 xl:pr-32 order-2 lg:order-1">
-            <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">Who We Are</motion.h1>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">royal construction  is an experienced IT solutions provider, delivering Applications, Business Process Outsourcing, and IT Infrastructure services globally through expert technological capabilities and flexible business partnership models.</motion.p>
-            <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">Our core competencies include Product Marketing, Software Development, IT Outsourcing (including engineer placement), Maintenance and Dispatch Support, Hardware and Software Solutions and IT Consulting.</motion.p>
-            <motion.div variants={childVariants}>
-            <Link href="about">
-            <Button text="Learn More" className={`${syne.className}`} /></Link></motion.div>
-            
-          </div>
+<div className="col max-w-10/12 xl:pr-32 order-2 lg:order-1">
+  <motion.h1 variants={childVariants} className="linear-text text-4xl lg:text-5xl font-bold">Who We Are</motion.h1>
+  <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
+    Royal Construction is a leading construction company with a commitment to delivering high-quality, innovative building solutions. With decades of experience in the construction industry, we specialize in residential, commercial, and industrial projects. Our expertise extends across design, development, project management, and construction, allowing us to bring complex ideas to life.
+  </motion.p>
+  <motion.p variants={childVariants} className="mt-5 lg:mt-7 dark:text-gray-400">
+    At Royal Construction, we are dedicated to sustainable building practices, ensuring that each project we undertake not only meets the highest standards of safety and quality but also contributes positively to the environment. Our diverse portfolio includes landmark developments, infrastructure projects, and custom-built homes that reflect our passion for excellence.
+  </motion.p>
+  <motion.div variants={childVariants}>
+    <Link href="about">
+      <Button text="Learn More" className={`${syne.className}`} />
+    </Link>
+  </motion.div>
+</div>
+
+
           <motion.div className="col order-1 lg:order-2"
           initial={{ scale:0.5 }}
           whileInView={{ scale:1 }}

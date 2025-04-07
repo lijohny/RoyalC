@@ -45,39 +45,39 @@ export default function Timeline() {
                 <ol className="relative border-s before:bg-gradient-to-b before-content before:w-0.5 before:h-full before:absolute from-sky-50 to-blue-400 dark:border-gray-700 ml-5 lg:ml-40">
                     <motion.li variants={childVariants} className="mb-10 lg:mb-20 ms-6 lg:ms-16">
                         <span className="absolute flex items-center justify-center w-6 h-6 lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                            <img src="/flags/india.webp" className='w-full h-full object-cover' alt="" />
+                            {/* <img src="/flags/india.webp" className='w-full h-full object-cover' alt="" /> */}
                         </span>
-                        <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 py-0.5 dark:bg-blue-900 dark:text-blue-300 rounded-full mb-1 inline-block">
-                             2012
+                        <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 shadow-2xl py-0.5 dark:bg-blue-900 dark:text-white rounded-full mb-1 inline-block">
+                             1980
                         </time>
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                            Incorporation in India as a private limited company
+                            devadasan nadar (Founder of royal construction)
                         </h3>
                     </motion.li>
                     <motion.li variants={childVariants} className="mb-10 lg:mb-20 ms-6 lg:ms-16">
                         <span className="absolute flex items-center justify-center w-6 h-6 lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                            <img src="/flags/australia.webp" className='w-full h-full object-cover' alt="" />
+                            {/* <img src="/flags/australia.webp" className='w-full h-full object-cover' alt="" /> */}
                         </span>
-                        <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 py-0.5 dark:bg-blue-900 dark:text-blue-300 rounded-full mb-1 inline-block">
-                        2017 
+                        <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 shadow-2xl py-0.5 dark:bg-blue-900 dark:text-white rounded-full mb-1 inline-block">
+                        2000
                         </time>
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                        Incorporation in Australia
+                        wilbert devadasan (CEO)
                         </h3>
                     </motion.li>
                     <motion.li variants={childVariants} className="mb-10 lg:mb-20 ms-6 lg:ms-16">
                         <span className="absolute flex items-center justify-center w-6 h-6 overflow-x-hidden lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                            <img src="/EIL-GLOBAL.png" className='w-full h-full object-cover' alt="" />
+                            {/* <img src="/EIL-GLOBAL.png" className='w-full h-full object-cover' alt="" /> */}
                         </span>
-                        <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 py-0.5 dark:bg-blue-900 dark:text-blue-300 rounded-full mb-1 inline-block">
-                        2018
+                        <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 shadow-2xl py-0.5 dark:bg-blue-900 dark:text-white rounded-full mb-1 inline-block">
+                        2025
                         </time>
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                            Partnership with EIL Global 
+                            Ajith wilbert (COO)
                         </h3>
                     </motion.li>
 
-                    <motion.li variants={childVariants} className="mb-10 lg:mb-20 ms-6 lg:ms-16">
+                    {/* <motion.li variants={childVariants} className="mb-10 lg:mb-20 ms-6 lg:ms-16">
                         <span className="absolute flex items-center justify-center w-6 h-6 lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                             <img src="/flags/uk.webp" className='w-full h-full object-cover' alt="" />
                         </span>
@@ -160,9 +160,9 @@ export default function Timeline() {
                     <motion.li variants={childVariants} className="mb-10 lg:mb-20 ms-6 lg:ms-16">
 
                         <span className="absolute flex items-center justify-center w-6 h-6 lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                            {/* <span className="absolute flex items-center justify-center w-6 h-6 lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"> */}
+                            <span className="absolute flex items-center justify-center w-6 h-6 lg:w-16 lg:h-16 bg-blue-100 rounded-full -start-3 lg:-start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"> 
                                 <img src="/eil.png" className='w-full h-full rounded-full  object-cover' alt="" />
-                            {/* </span> */}
+                             </span> 
 
                         </span>
                         <time className="bg-gradient-to-r from-sky-400 to-blue-500 text-sky-50 text-sm font-medium me-2 px-2.5 py-0.5 dark:bg-blue-900 dark:text-blue-300 rounded-full mb-1 inline-block">
@@ -183,7 +183,7 @@ export default function Timeline() {
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                             Expansion and incorporation in the Germany
                         </h3>
-                    </motion.li>
+                    </motion.li> */}
                 </ol>
             </motion.div>
 

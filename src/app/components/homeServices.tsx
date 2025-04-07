@@ -43,38 +43,42 @@ export default function HomeServices() {
   };
 
   return (
-    <div className="col max-w- relative">
-      <motion.h1 initial={{
-        opacity: 0, y: 20
-      }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
-        }}
-        className="linear-text-blue text-4xl lg:text-5xl font-bold">Our Services</motion.h1>
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
-        }}
-        className="mt-5 lg:mt-7 xl:max-w-4xl text-gray-300">Gnotis provides IT Maintenance Services, based on decade worth of experience supporting businesses of all sizes in India, Singapore, Australia, Hong Kong, Malaysia, Indonesia, Philippines, Ireland, UK and Netherlands.</motion.p>
+    <div className="col max-w-relative">
+  <motion.h1 
+    initial={{ opacity: 0, y: 20 }} 
+    whileInView={{ opacity: 1, y: 0 }} 
+    transition={{ duration: 0.4, scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 } }} 
+    className="linear-text-blue text-4xl lg:text-5xl font-bold"
+  >
+    Our Services
+  </motion.h1>
 
-      <motion.div className="column-grids grid lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-12 xl:gap-9 lg:mt-20 mt-5"
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ amount: 0.4, once: true }}
-      >
-        {HomeServicesItems.map((item) => {
-          return (
-            <HomeServiceComponentItem
-              item={item} key={item.id} />
-          )
-        })}
-      </motion.div>
+  <motion.p
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.4, scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 } }}
+    className="mt-5 lg:mt-7 xl:max-w-4xl text-gray-300"
+  >
+    Royal Construction offers a wide range of services designed to help businesses achieve their construction and infrastructure goals. With years of experience across diverse industries, we specialize in providing exceptional project management, innovative design solutions, and sustainable construction practices. Whether you're building from the ground up or improving an existing space, our team is dedicated to delivering high-quality results on time and within budget.
+  </motion.p>
+
+  <motion.div 
+    className="column-grids grid lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-12 xl:gap-9 lg:mt-20 mt-5"
+    variants={containerVariants}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ amount: 0.4, once: true }}
+  >
+    {HomeServicesItems.map((item) => {
+      return (
+        <HomeServiceComponentItem 
+          item={item} 
+          key={item.id} 
+        />
+      );
+    })}
+  </motion.div>
+
 
 
 
