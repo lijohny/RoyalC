@@ -645,9 +645,12 @@ export default function Home() {
                                 />
                                 </motion.div>
 
+                                <h1 className="linear-text text-4xl lg:text-5xl font-bold !leading-[1.5]">Why Royal Construction?</h1>
+<p className="mt-5 lg:mt-7 xl:max-w-4xl pb-10 lg:pb-16 dark:text-gray-400">
+  At Royal Construction, we prioritize excellence and ensure that we recruit only the most skilled professionals to handle each project. We understand that construction is not just about technical expertise; it's also about providing a team that is friendly, professional, and dedicated to delivering quality results.
+</p>
 
-      <h1 className="linear-text text-4xl lg:text-5xl font-bold !leading-[1.5]">Why Gnotis ?</h1>
-      <p className="mt-5 lg:mt-7 xl:max-w-4xl pb-10 lg:pb-16 dark:text-gray-400">We recruit only the best staff that have the right ability to deal with the jobs on hand. We know it's not just about IT and having people with a friendly and professional manner is equally valuable.</p>
+
       <motion.div className="grid lg:grid-cols-3 gap-5 lg:gap-10"
       variants={containerVariants}
       initial="hidden"
