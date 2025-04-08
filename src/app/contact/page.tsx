@@ -62,30 +62,14 @@ export default function Contact() {
 
                 <div className="container mx-auto xl:pt-5 px-4 lg:px-16 xl:px-0">
                     <div className="hero--section relative">
+
+                    <motion.div>
+
+<h2 className="font-medium text-3xl lg:text-3xl animate-text bg-gradient-to-r from-teal-600 via-cyan-700 to-blue-500 bg-clip-text text-transparent max-w-md mb-6 lg:mb-12">We'd love to hear from you! Leave Us a Message</h2>
+</motion.div>
                         <div className="lg:grid lg:grid-cols-2 items-start">
 
-                            <div className="col relative" style={{ zIndex: -1 }}>
-
-                                <motion.div className="block" variants={containerVariants}
-                                    initial="hidden"
-                                    animate="visible"
-                                    transition={{
-                                        duration: 0.4,
-                                        scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
-                                    }}>
-                                    <motion.div>
-                                    <h2 className="font-medium text-3xl lg:text-3xl animate-text bg-gradient-to-r from-teal-600 via-cyan-700 to-blue-500 bg-clip-text text-transparent max-w-md mb-6 lg:mb-12">We'd love to hear from you! Leave Us a Message</h2>
-                                    </motion.div>
-                                    <motion.div variants={childVariants}><Image
-                                        className="w-full max-w-sm"
-                                        src="/d03368b.jpeg"
-                                        alt="hero-image"
-                                        width="500"
-                                        height="500"
-                                    /></motion.div>
-                                </motion.div>
-
-                            </div>
+     
 
                             <motion.div className="col blue-box p-10 lg:p-12 rounded-3xl"
                                 variants={containerVariants}
@@ -125,6 +109,37 @@ export default function Contact() {
                                 </div>
                                 </div>
                             </motion.div>
+
+                            <div className="col relative" style={{ zIndex: -1 }}>
+
+<motion.div className="block" variants={containerVariants}
+    initial="hidden"
+    animate="visible"
+    transition={{
+        duration: 0.4,
+        scale: { type: "spring", visualDuration: 0.4, bounce: 0.05 },
+    }}>
+
+
+    <motion.div className="mt-5 lg:mt-0" variants={childVariants}>
+
+        <iframe className="w-full h-[40vh] max-w-sm" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.3232757766596!2d77.0010424!3d8.4679111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05b35b43c48fc9%3A0x5b108602ace67bce!2sRoyal%20construction!5e0!3m2!1sen!2sin!4v1744090198510!5m2!1sen!2sin" frameBorder="0"></iframe>
+        
+    {/* <Image
+        className="w-full max-w-sm"
+        src="/d03368b.jpeg"
+        alt="hero-image"
+        width="500"
+        height="500"
+    /> */}
+    
+    </motion.div>
+
+
+</motion.div>
+
+</div>
                         </div>
                     </div>
                 </div>
