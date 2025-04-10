@@ -151,7 +151,7 @@ export default function Contact() {
                                 </form>
                             </motion.div>
 
-                            <div className="col relative w-full" style={{ zIndex: -1 }}>
+                            <div className="col relative w-full">
                                 <motion.div className="block" variants={containerVariants}
                                     initial="hidden"
                                     animate="visible"

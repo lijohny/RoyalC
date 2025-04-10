@@ -299,10 +299,15 @@ export default function Home() {
 
       <div className="container mx-auto pt-20 lg:pt-36 lg:pb-32 px-4 lg:px-16 xl:px-0">
         <div className="col">
-          <motion.h1 initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="text-4xl lg:text-5xl font-bold text-center"><span className="linear-text">royal construction  In  Numbers</span></motion.h1>
-          <motion.p initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="mt-5 lg:mt-7 xl:max-w-2xl mx-auto text-center dark:text-gray-400">royal construction  provides IT Maintenance Services, based on decade worth of experience supporting businesses of all sizes in India, Singapore, Australia, Hong Kong, Malaysia, Indonesia, Philippines, Ireland, UK and Netherlands.</motion.p>
+        <motion.h1 initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }} className="text-4xl lg:text-5xl font-bold text-center">
+  <span className="linear-text">Royal Construction In Numbers</span>
+</motion.h1>
+<motion.p initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }} className="mt-5 lg:mt-7 xl:max-w-2xl mx-auto text-center dark:text-gray-400">
+  Royal Construction has built a solid reputation in the industry, with decades of experience delivering large-scale infrastructure and construction projects across the globe. Our expertise spans countries like India, Singapore, Australia, Hong Kong, Malaysia, Indonesia, the Philippines, Ireland, the UK, and the Netherlands. We are committed to excellence in every phase, ensuring high-quality results and timely project delivery.
+</motion.p>
+
 
           <motion.div className="column-grids grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5 lg:gap-8 xl:gap-16 mt-5 lg:mt-14 lg:max-w-5xl mx-auto"
           variants={containerVariants}
