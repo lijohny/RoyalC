@@ -5,31 +5,31 @@ import * as motion from "motion/react-client"
 
 const HomeServicesItems = [
   {
-    "id": 1,
-    "icon": "icons/sales-marketing.svg",
-    "title": "Construction Project Outsourcing",
-    "description": "Partnering with Royal Construction means gaining access to top-tier construction expertise and innovative building techniques. Our outsourcing solutions provide skilled labor, project management, and advanced construction strategies to ensure efficient and high-quality project execution. Whether you need support in planning, design, or on-site construction, our team delivers excellence with precision. Let us handle the complexities while you focus on growing your business with confidence."
+    id: 1,
+    icon: 'icons/sales-marketing.svg',
+    title: 'Construction Project Outsourcing',
+    description: 'Partnering with Royal Construction means gaining access to top-tier construction expertise and innovative building techniques. Our outsourcing solutions provide skilled labor, project management, and advanced construction strategies to ensure efficient and high-quality project execution. Whether you need support in planning, design, or on-site construction, our team delivers excellence with precision. Let us handle the complexities while you focus on growing your business with confidence.'
   },
   {
-    "id": 2,
-    "icon": "icons/sales-marketing.svg",
-    "title": "Infrastructure Services",
-    "description": "Royal Construction delivers robust infrastructure services, backed by years of experience in delivering large-scale construction projects across the country. From site development to infrastructure management, we ensure that every phase of your project is executed seamlessly, on time, and within budget. We specialize in providing the foundation for long-lasting structures that meet the highest standards."
+    id: 2,
+    icon: 'icons/sales-marketing.svg',
+    title: 'Infrastructure Services',
+    description: 'Royal Construction delivers robust infrastructure services, backed by years of experience in delivering large-scale construction projects across the country. From site development to infrastructure management, we ensure that every phase of your project is executed seamlessly, on time, and within budget. We specialize in providing the foundation for long-lasting structures that meet the highest standards.'
   },
   {
-    "id": 3,
-    "icon": "icons/sales-marketing.svg",
-    "title": "Business Process Outsourcing for Construction",
-    "description": "Transform your construction business operations with Royal Construction's Business Process Outsourcing (BPO) solutions. Our strategic approach helps construction companies optimize their workflows by expertly managing non-core functions such as procurement, documentation, and compliance. Focus on your core construction operations while we handle the back-office tasks that drive efficiency and growth."
+    id: 3,
+    icon: 'icons/sales-marketing.svg',
+    title: 'Business Process Outsourcing for Construction',
+    description: "Transform your construction business operations with Royal Construction's Business Process Outsourcing (BPO) solutions. Our strategic approach helps construction companies optimize their workflows by expertly managing non-core functions such as procurement, documentation, and compliance. Focus on your core construction operations while we handle the back-office tasks that drive efficiency and growth."
   },
   {
-    "id": 4,
-    "icon": "icons/sales-marketing.svg",
-    "title": "Staff Augmentation for Construction Projects",
-    "description": "Royal Construction provides staff augmentation services, leveraging years of experience to support construction projects of all sizes. Whether you need additional engineers, project managers, or construction workers, we offer highly skilled professionals who can seamlessly integrate into your team to meet project demands. Our flexible staffing solutions ensure you have the right expertise when you need it most."
+    id: 4,
+    icon: 'icons/sales-marketing.svg',
+    title: 'Staff Augmentation for Construction Projects',
+    description: 'Royal Construction provides staff augmentation services, leveraging years of experience to support construction projects of all sizes. Whether you need additional engineers, project managers, or construction workers, we offer highly skilled professionals who can seamlessly integrate into your team to meet project demands. Our flexible staffing solutions ensure you have the right expertise when you need it most.'
   }
-  
-]
+];
+
 
 export default function HomeServices() {
 
