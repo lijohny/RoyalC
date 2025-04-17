@@ -64,7 +64,7 @@ export default function HomeServices() {
   </motion.p>
 
   <motion.div 
-    className="column-grids grid lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-12 xl:gap-9 lg:mt-20 mt-5"
+    className="column-grids grid lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-12 xl:gap-9 lg:mt-20 mt-5 !opacity-100"
     variants={containerVariants}
     initial="hidden"
     whileInView="visible"
